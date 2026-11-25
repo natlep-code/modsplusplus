@@ -1,0 +1,62 @@
+{
+	"geode": "6.0.0",
+	"gd": {
+		"win": "2.2091",
+		"android": "2.2091",
+		"mac": "2.2091",
+		"ios": "2.2091"
+	},
+	"id": "natlep.modsplusplus",
+	"name": "Mods++",
+	"version": "v1.0.0-alpha.1",
+	"developer": "natlep",
+	"description": "Install mod with link",
+  "links": {
+    "source": "https://github.com/natlep-code/modsplusplus"
+  },
+  "tags": [
+    "developer",
+    "online",
+    "utility"
+  ],
+  "resources": {
+    "files": [
+      "resources/Btn.png"
+    ],
+    "sprites": [
+      "resources/Btn.png"
+    ]
+  },
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+  "settings": {
+    "accept": {
+      "type": "bool",
+      "name": "accept Rules",
+      "description": "The developer is not responsible for any damage, data loss, or problems caused by its use. Use it at your own risk.",
+      "default": false
+    },
+    "title-1": {
+      "type": "title",
+      "name": "ultimate downloader mods",
+      "description": "Warning, the mods does not belong to Geode and is not official; it may contain viruses"
+    },
+    "string-url": {
+      "type": "string",
+      "name": "url",
+      "default": "url",
+      "enable-if": "accept"
+    },
+    "title-2": {
+      "type": "title",
+      "name": "the folder of geode mods"
+    },
+    "folder-mods": {
+      "type": "folder",
+      "name": "folder",
+      "default": "{gd_dir}/Resources",
+      "enable-if": "accept"
+    }
+  }
+}
