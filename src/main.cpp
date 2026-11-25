@@ -51,7 +51,7 @@ class $modify(MyMenuLayer, MenuLayer) {
                     }
                   }
                 );
-                Notification::create("download mod, restart geode in a minute", NotificationIcon::Success, 2.f)->show();
+                Notification::create("mod downloaded, restart geode for activate the mod", NotificationIcon::Success, 2.f)->show();
                 log::info("mod downloaded");
               } else {
                 FLAlertLayer::create("error", "unable to write file", "Ok")->show();
