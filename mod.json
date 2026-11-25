@@ -11,6 +11,10 @@
 	"version": "v1.0.0-alpha.1",
 	"developer": "natlep",
 	"description": "Install mod with link",
+  "issues": {
+    "info": "u can report bug here",
+    "url": "https://github.com/natlep-code/modsplusplus/issues"
+  },
   "links": {
     "source": "https://github.com/natlep-code/modsplusplus"
   },
